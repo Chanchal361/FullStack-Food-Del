@@ -5,11 +5,11 @@ const AallHokes = () => {
     const [num ,setNum] =useState(0)
   return (
     
-    <div className='hiii'>
+    <div className='hiii border-b-red-900'>
        {/* useUseRef */}
-       <button className=' bg-red-500'>-</button>
+       <button onClick={()=>setCount(c=>c-1)}>-</button>
        <span>{count}</span>
-       <button>+</button>
+       <button onClick={()=>setCount(c=>c+1)}>+</button>
 
     </div>
   )
