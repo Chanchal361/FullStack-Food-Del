@@ -9,7 +9,7 @@ function App() {
   return (
     <div className=" w-[80%] mx-auto">
       <Navbar />
-      <Routes>
+      <Routes>   
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/order" element={<PlaceOrder />} />

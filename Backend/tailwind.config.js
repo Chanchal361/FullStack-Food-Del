@@ -5,7 +5,21 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        DimGray:'#747474',
+        Darkse:'#262626'
+      },
+      animation:{
+         'fade-in':'fadeIn 3s',
+      },
+      keyframes:{
+        fadeIn:{
+          '0%': { opacity: 0 },
+          '100%': { opacity: 1 },
+        },
+      },
+    },
   },
   plugins: [],
 }
