@@ -3,12 +3,12 @@ import React from "react";
 const Header = () => {
   return (
     <div className="header">
-      <div className="  absolute flex flex-col items-start gap-[1.5vw]  max-w-[50%] bottom-[10%] left-[6vw] animate-fade-in  ">
+      <div className="  absolute flex flex-col items-start gap-[1.5vw]  max-w-[50%] bottom-[10%] left-[6vw] animate-fade-in header-content  ">
         <h2
           className=" font-bold text-white "
           style={{ fontSize: "max(4.5vw, 22px)" }}
         >
-          {" "}
+          
           Order Your favoutite food here
         </h2>
         <p className=" text-white text-[1vw]">
