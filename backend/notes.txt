@@ -1,7 +1,0 @@
-bad me use karege // "type": "module", ye e56 ka hai 
-
-like import express from 'express';
-
-es5 me const express = require('express'); hota hai 
-
-bad me try karege // "type": "module", ye e
