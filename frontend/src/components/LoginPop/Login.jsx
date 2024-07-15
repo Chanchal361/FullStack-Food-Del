@@ -5,7 +5,8 @@ import axios from "axios"
   
 const Login = ({ setIsLogin }) => {
   const [currenrState, setCurrentState] = useState("Sign Up");
-  const { url ,token ,setToken } = useContext(StoreContext);
+  const { url ,token,setToken } = useContext(StoreContext);
+  // update and this more modify 
 
   const [data, setData] = useState({
     name: "",
