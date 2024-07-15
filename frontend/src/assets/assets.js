@@ -274,7 +274,7 @@ export const food_list = [
         price: 220,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pure Veg"
-    }, {
+    }, {  
         _id: "23",
         name: "Mix Veg Pulao",
         image: food_23,

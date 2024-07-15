@@ -1,7 +1,7 @@
 import React from "react";
 import { menu_list } from "../../assets/assets";
 const ExploreMenu = ({category,setCategory}) => {
-  console.log( " this is true category ..."+ category)
+  // console.log( " this is true category ..."+ category)
   return (
     <div className=" flex flex-col gap-5 " id="explore-menu">
       <h1 className=" text-Darkse font-semibold">Explore our menu </h1>
